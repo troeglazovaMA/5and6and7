@@ -1,0 +1,29 @@
+﻿.mycolor{
+	background: white;
+	opacity:0.5;
+}
+
+﻿body{
+background:url(Ah1ZVHO6690.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-attachment: fixed;
+}
+table{
+  background-color: #625750;
+  border-collapse: collapse;
+}
+
+tr:nth-child(odd) {
+  background-color: #625750;
+}
+@media all and (orientation: landscape){
+  img{
+    width: 8vw;
+  }
+  h1{
+    font-size: 6vw;
+  }
+}
